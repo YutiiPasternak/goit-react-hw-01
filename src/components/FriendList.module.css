@@ -1,0 +1,22 @@
+@import url(./reset.css);
+
+.container {
+  max-width: 1920px;
+  padding: 64px 32px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  background-color: white;
+}
